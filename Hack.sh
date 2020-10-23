@@ -1,3 +1,4 @@
+python login.py
 sleep 1
 echo "Mau Masuk?"
 sleep 1
