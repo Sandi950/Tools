@@ -1,4 +1,3 @@
-python login.py
 sleep 1
 echo "Mau Masuk?"
 sleep 1
@@ -45,7 +44,7 @@ clear
 figlet Dark-Fb | lolcat
 echo "=====================================" | lolcat
 echo
-echo -n "ID Target : " bb
+echo -n "ID Target : ";read bb
 sleep 1
 echo
 echo "Sedang Membobol Password $bb" | lolcat
@@ -69,7 +68,7 @@ echo
 figlet Free Fire | lolcat
 echo "====================================================================="
 echo
-echo -n "Ussername Korban : " gg
+echo -n "Ussername Korban : ";read gg
 echo
 echo "Sedang Membobol Password $gg"
 echo
